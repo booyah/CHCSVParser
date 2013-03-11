@@ -23,6 +23,8 @@
  THE SOFTWARE.
  **/
 
+#if DEBUG
+
 #import "CHCSVParser.h"
 
 NSString *const CHCSVErrorDomain = @"com.davedelong.csv";
@@ -776,3 +778,5 @@ NSString *const CHCSVErrorDomain = @"com.davedelong.csv";
 }
 
 @end
+
+#endif

@@ -23,7 +23,7 @@
  THE SOFTWARE.
  **/
 
-#import <Foundation/Foundation.h>
+#if DEBUG
 
 extern NSString * const CHCSVErrorDomain;
 
@@ -108,3 +108,5 @@ typedef NS_OPTIONS(NSUInteger, CHCSVParserOptions) {
 - (NSArray *)CSVComponentsWithOptions:(CHCSVParserOptions)options;
 
 @end
+
+#endif
