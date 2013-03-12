@@ -3,3 +3,4 @@ build
 **/*.pbxuser
 **/*.mode*
 *.xcodeproj/xcworkspace/xcuserdata/**
+*.xcodeproj/xcuserdata/**
