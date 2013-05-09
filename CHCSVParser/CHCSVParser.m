@@ -23,6 +23,10 @@
  THE SOFTWARE.
  **/
 
+#ifdef APPORTABLE 
+#undef DEBUG
+#endif
+
 #if DEBUG
 
 #import "CHCSVParser.h"
